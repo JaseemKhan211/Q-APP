@@ -1,0 +1,446 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-right{
+    text-align: right;
+}
+.menu-left{
+    text-align: left;
+}
+.menu-left img{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    width: 62px;
+    height: 58px;
+}
+.menu-right ul li{
+    display: inline-block;
+    position: absolute;
+    background: #fff;
+    color: #73bcd4;
+    border: 0px;
+    border-radius: 10px;
+    padding: 7px 15px;
+    width: 7%;
+    transition: 0.3s;
+    left: 90%;
+    top: 22px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.menu-right ul li:hover{
+    background: #378aa8;
+    color: #fff;
+    border: 1px solid #73bcd4;;
+    cursor: pointer;
+}
+.nav-bar{
+    background: #73bcd4;
+    color: #fff;
+    display: block;
+    padding: 35px;
+    cursor: pointer;
+}
+.main-login{
+    width: 100%;
+    position: absolute;
+    top: 22%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.main-login input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 13px;
+    outline: none;
+    width: 25%;
+}
+.main-login input:focus{
+    border: 1px solid #73bcd4;
+}
+.main-login button{
+    background: #73bcd4;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 16px;
+    width: 26%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.main-login button:hover{
+   background: #fff;
+   color: #73bcd4;
+   border: 1px solid #73bcd4;;
+   cursor: pointer;
+}
+.main-login .fblogin-btn{
+    background: #037399;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 16px;
+    width: 26%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.fblogin-btn:hover{
+    background: #fff;
+    color: #037399;
+    border: 1px solid #037399;
+    cursor: pointer;
+} 
+.main-login p{
+    color: #73bcd4;
+    font-family: sans-serif;
+    font-weight: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.main-div{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.main-div .btn-1{
+    position: absolute;
+    background: #73bcd4;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 16px;
+    width: 20%;
+    transition: 0.3s;
+    left: 22%;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.main-div .btn-1:hover{
+    background: #fff;
+    color: #73bcd4;
+    border: 1px solid #73bcd4;;
+    cursor: pointer;
+}
+.main-div .btn-2{
+    position: absolute;
+    background: #73bcd4;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 16px;
+    width: 20%;
+    transition: 0.3s;
+    left: 45%;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.main-div .btn-2:hover{
+    background: #fff;
+    color: #73bcd4;
+    border: 1px solid #73bcd4;;
+    cursor: pointer;
+}
+.btn-3 button{
+    position: absolute;
+    left: 87%;
+    top: 22px;
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    color: #73bcd4;
+    border-radius: 9px;
+    padding: 7px;
+    width: 10%;
+    transition: 0.3s;
+}
+.btn-3 button:hover{
+    background: #378aa8;
+    color: #fff;
+    border: 1px solid #73bcd4;;
+    cursor: pointer;
+}
+.action{
+    position: fixed;
+    left: 92%;
+    top: 87%;
+    border-radius: 80%;
+    width: 50px;
+    height: 50px;
+}
+.action span{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    background: #73bcd4;
+    border-radius: 80%;
+    transition: 0.3s ease-in-out;
+}
+.action:hover span{
+    transform: rotate(135deg);
+}
+.main-heading h1{
+    color: #73bcd4;
+    position: absolute;
+    left: 37%;
+    top: 15%;
+}
+.table-fixed thead,
+.table-fixed thead>th{
+    background: #73bcd4;
+    color: #fff;
+}
+.table-fixed tbody tr td{
+    background: rgb(224, 233, 246);
+}
+.table-fixed>thead>tr>th{
+    border: 0 !important;
+}
+.table-fixed>tbody>tr>td:last-child{
+    border-right: 0;
+}
+.table-fixed tbody td,
+.table-fixed>thead>tr>th{
+    font-size: 16px;
+    padding-left: 20px !important;
+}
+.table-fixed .col{
+    width: 1%;
+}
+.container{
+    width: 500px;
+    height: 350px;
+    overflow: auto;
+}
+.col button{
+    text-decoration: none;
+    border: none;
+    background-color: #378aa8;
+    color: #fff;
+    border-radius: 12px;
+    padding: 6px;
+}
+.goback-btn button{
+    position: absolute;
+    left: 1%;
+    top: 89%;
+    text-decoration: none;
+    border: none;
+    background-color: #73bcd4;
+    color: #fff;
+    border-radius: 10px;
+    padding: 7px;
+    width: 11%;
+    transition: 0.3s;
+}
+.goback-button button{
+    position: absolute;
+    left: 2%;
+    top: 86%;
+    text-decoration: none;
+    border: none;
+    background-color: #73bcd4;
+    color: #fff;
+    border-radius: 10px;
+    padding: 7px;
+    width: 11%;
+    transition: 0.3s;
+}
+.comp-details{
+    position: absolute;
+    left: 30%;
+    top: 29%;
+    border-radius: 65px;
+    width: 55%;
+    height: 55%;
+    overflow: auto;
+    background-color: rgb(161, 197, 248);
+}
+.comp-details h1{
+    font-size: 500%;
+    position: absolute;
+    left: 33%;
+    color: white;
+    top: 8%;
+    font-family: 'Poppins', sans-serif;
+}
+.h6-btn-4{
+    position: absolute;
+    left: 47%;
+    top: 96%;
+    font-size: 20px;
+    color: #fff;
+}
+.h6-btn-4 h5{
+    position: relative;
+    right: 29%;
+    font-size: 25px;
+}
+.h6-btn-5{
+    position: absolute;
+    left: 48%;
+    top: 115%;
+    font-size: 20px;
+    color: #fff;
+}
+.h6-btn-5 h5{
+    position: relative;
+    right: 36%;
+    font-size: 25px;
+}
+.h6-btn-1{
+    position: absolute;
+    left: 41%;
+    top: 34%;
+    font-size: 20px;
+    color: #fff;
+}
+.h6-btn-1 h5{
+    position: relative;
+    left: 14%;
+    font-size: 25px;
+}
+.h6-btn-2{
+    position: absolute;
+    left: 41%;
+    top: 55%;
+    font-size: 20px;
+    color: #fff;
+}
+.h6-btn-2 h5{
+    font-size: 25px;
+    position: relative;
+    left: 11%;
+}
+.h6-btn-3{
+    position: absolute;
+    left: 46%;
+    top: 75%;
+    color: #fff;
+    font-size: 20px;
+}
+.h6-btn-3 h5{
+    font-size: 28px;
+    position: relative;
+    right: 15%;
+}
+img{
+    width: 40%;
+    position: relative;
+    left: 30%;
+    top: 70%;
+}
+.token{
+    position: absolute;
+    left: 48%;
+    top: 52%;
+    text-decoration: none;
+    border: none;
+    background-color: #73bcd4;
+    color: #fff;
+    border-radius: 10px;
+    padding: 7px;
+    width: 11%;
+    transition: 0.3s;
+}
+.token-h1{
+    position: absolute;
+    left: 46%;
+    top: 38%;
+    font-size: 300%;
+}
+.token-reast{
+    position: absolute;
+    left: 43%;
+    top: 135%;
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    color: #73bcd4;
+    border-radius: 10px;
+    padding: 8px;
+    width: 13%;
+    transition: 0.3s;
+}
+.container-2{
+    width: 500px;
+    height: 470px;
+    overflow: auto;
+}
+.comp-search-bar{
+    position: absolute;
+    left: 79%;
+    top: 24%;
+    width: 450px;
+    transform: translate(-50% , -50%);
+}
+.comp-search-bar input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.comp-search-bar input[ type="text" ]{
+    background:#fff;
+    width: 270px;
+    height: 46px;
+    border: 1px solid #73bcd4;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+.comp-search-bar input[ type="submit" ]{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    width: 120px;
+    height: 46px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #73bcd4;
+    color: #fff;
+}
+.comp-search-bar input[ type="submit" ]:hover{
+    background: #378aa8;
+}
+.pag button.prev{
+    position: absolute;
+    top: 82%;
+    left: 8%;
+    text-decoration: none;
+    border: none;
+    background-color: #73bcd4;
+    color: #fff;
+    border-radius: 10px;
+    padding: 7px;
+    width: 10%;
+    transition: 0.3s;
+}
+.pag button.next{
+    position: absolute;
+    top: 82%;
+    left: 82%;
+    text-decoration: none;
+    border: none;
+    background-color: #73bcd4;
+    color: #fff;
+    border-radius: 10px;
+    padding: 7px;
+    width: 10%;
+    transition: 0.3s;
+}
+ 
